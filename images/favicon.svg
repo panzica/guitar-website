@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .body { fill: #3498db; }
+        .details { fill: #2980b9; }
+        .hardware { fill: #e1e1e1; }
+        @media (prefers-color-scheme: dark) {
+            .body { fill: #3498db; }
+            .details { fill: #2980b9; }
+            .hardware { fill: #ffffff; }
+        }
+    </style>
+    <!-- Guitar Body -->
+    <path class="body" d="M58,20L46,32c-1,1-2,1-3,0l-1-1L28,45c-2,2-2,5,0,7l4,4c2,2,5,2,7,0l14-14l-1-1
+        c-1-1-1-2,0-3l12-12c1-1,1-2,0-3l-3-3C60,19,59,19,58,20z"/>
+    <!-- Neck -->
+    <path class="body" d="M40,29l-20,20c-1,1-2,1-3,0l-1-1c-1-1-1-2,0-3l20-20c1-1,2-1,3,0l1,1C41,27,41,28,40,29z"/>
+    <!-- Head -->
+    <path class="body" d="M16,47l-8,8c-1,1-2,1-3,0l-1-1c-1-1-1-2,0-3l8-8c1-1,2-1,3,0l1,1C17,45,17,46,16,47z"/>
+    <!-- Pickups -->
+    <rect class="hardware" x="32" y="34" width="4" height="8" rx="1"/>
+    <rect class="hardware" x="38" y="32" width="4" height="8" rx="1"/>
+    <!-- Bridge -->
+    <rect class="hardware" x="44" y="28" width="6" height="2"/>
+    <!-- Tuning Pegs -->
+    <circle class="hardware" cx="10" cy="50" r="1"/>
+    <circle class="hardware" cx="12" cy="48" r="1"/>
+    <circle class="hardware" cx="14" cy="46" r="1"/>
+    <!-- Frets -->
+    <path class="details" d="M38,27l-18,18 M34,23l-18,18 M30,19l-18,18"/>
+</svg>
